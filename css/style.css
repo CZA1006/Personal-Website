@@ -1,7 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
@@ -15,10 +20,12 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
@@ -28,12 +35,9 @@ nav ul li a {
 }
 
 section {
+    flex: 1;
     padding: 20px;
-}
-
-#home, #academic, #gallery, #contact {
     background: #f4f4f4;
-    padding: 20px;
 }
 
 .profile-section {
@@ -67,6 +71,7 @@ section {
 .profile-details ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .profile-details ul li {
@@ -79,5 +84,4 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: 20px;
 }
