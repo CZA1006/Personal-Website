@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhuoang Cai - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -12,6 +12,8 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -19,19 +21,46 @@
 
     <section id="home">
         <h1>Welcome to Zhuoang Cai's Personal Website</h1>
-        <p>Hello! I'm Zhuoang Cai. Welcome to my personal space on the web.</p>
+        <p>Hello! I'm Zhuoang Cai, a Computer Science student with a passion for technology and innovation.</p>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>HKUST MSc 25'; PolyU BSc 24'</p>
-        <!-- You can add more personal details or a photo here -->
+        <p>HKUST MSc '25; PolyU BSc '24</p>
+        <p>A high-achieving Computer Science student with a minor in Applied Mathematics, recognized for academic excellence. Experienced in research, business analysis, and software development through various internships and international exchanges.</p>
+        <img src="images/your-photo.jpg" alt="Zhuoang Cai's Photo">
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li><strong>Programmer Intern</strong> - Speech, Language and Reading Laboratory (SLR lab), HKU, HK</li>
+            <li><strong>Research Intern</strong> - Toyota Technological Institute, Nagoya, Aichi, Japan</li>
+            <li><strong>Business Manager Intern</strong> - JD.com, Inc., Beijing, China</li>
+            <li><strong>Software Development Intern</strong> - iFLYTEK Co., Ltd., Hefei, Anhui, China</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Runner-Up</strong> - W3 Algorand Hackathon 2023, University of Florida, Gainesville, FL, U.S.</li>
+            <li><strong>Competitor</strong> - Youth-Storm Microsoft Business Analytics Challenge, Microsoft, Shanghai, China</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Feel free to reach out to me at <a href="zhuoangc@gmail.com">zhuoangc@gmail.com</a></p>
-        <!-- Add more contact details or a contact form here -->
+        <p>Feel free to reach out to me at <a href="mailto:zhuoangc@gmail.com">zhuoangc@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/zhuoang-cai" target="_blank">LinkedIn</a>.</p>
+        <form action="mailto:zhuoangc@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
     </section>
 
     <footer>
