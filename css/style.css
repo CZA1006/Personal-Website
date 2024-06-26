@@ -31,11 +31,9 @@ section {
     padding: 20px;
 }
 
-#home {
+#home, #academic, #gallery, #contact {
     background: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 20px;
 }
 
 .profile-section {
@@ -80,7 +78,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    margin-top: 20px;
 }
