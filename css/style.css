@@ -35,9 +35,11 @@ section {
     background: #f4f4f4;
 }
 
-#about img {
-    max-width: 100%;
+#about img.profile-photo {
+    max-width: 200px;  /* Adjust the size as needed */
     height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 footer {
