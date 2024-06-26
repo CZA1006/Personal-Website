@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhuoang Cai - Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -13,13 +14,12 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="academic.html">Academic & Internship</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
-        <h1>About Zhuoang(Nick) Cai</h1>
+        <h1>About Zhuoang (Nick) Cai</h1>
         <div class="profile-section">
             <div class="profile-image">
                 <img src="images/Photo.JPG" alt="Zhuoang Cai's Photo" class="profile-photo">
@@ -44,8 +44,41 @@
         </div>
     </section>
 
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me at <a href="mailto:zhuoangc@gmail.com">zhuoangc@gmail.com</a> or connect with me on social media.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/zhuoang-cai" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/cza1006" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/caizhuoang" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://space.bilibili.com/160551683?spm_id_from=333.1007.0.0" target="_blank"><i class="fab fa-bilibili"></i></a>
+            <a href="https://music.163.com/#/artist?id=12206079" target="_blank"><i class="fas fa-music"></i></a>
+            <a href="https://open.spotify.com/artist/0HcEB3k0VG1X4zkblPemkh" target="_blank"><i class="fab fa-spotify"></i></a>
+        </div>
+        <div class="contact-form">
+            <form action="mailto:zhuoangc@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>Copyright &copy; 2024 Zhuoang Cai. All rights reserved.</p>
+        <p>&copy; 2024 Zhuoang Cai. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
